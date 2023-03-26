@@ -1,0 +1,1 @@
+This project consists of a landing page built with CSS flexbox. Provided by [The Odin Project](https://www.theodinproject.com/) as a part of the [Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations).
