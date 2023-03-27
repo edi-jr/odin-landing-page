@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-button, img {
+button, img, .container {
   border-radius: 8px;
 }
 
@@ -134,4 +134,28 @@ button, img {
 #quote blockquote figcaption {
   font-size: 18px;
   text-align: end;
+}
+
+#sign-up {
+  max-width: 80%;
+  margin: auto;
+  padding: 96px 0;
+}
+
+#sign-up .container {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  padding: 36px 8px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container button{
+  padding: 8px 32px;
+  font-size: 16px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
 }
