@@ -159,3 +159,10 @@ button, img, .container {
   color: #f9faf8;
   border: 2px solid #f9faf8;
 }
+
+footer {
+  background: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 24px 0;
+}
