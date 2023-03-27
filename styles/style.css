@@ -112,3 +112,26 @@ button, img {
   min-width: 250px;
   margin-bottom: 4px;
 }
+
+#quote {
+  background: #e5e7eb;
+}
+
+#quote blockquote {
+  max-width: 60%;
+  padding: 96px 0;
+  margin: auto;
+}
+
+#quote blockquote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  text-align: justify;
+}
+
+#quote blockquote figcaption {
+  font-size: 18px;
+  text-align: end;
+}
