@@ -2,4 +2,4 @@ This project consists of a landing page built with CSS flexbox. Provided by [The
 
 Logo by [Elias](https://pixabay.com/users/elionas-2345468/) from [Pixabay](https://pixabay.com/). Cat photos by [Cats Coming](https://www.pexels.com/photo/cat-licking-its-paw-3712095/), [Tranmautritam](https://www.pexels.com/photo/ragdoll-cat-on-a-white-chair-384555/), [Александар Цветановић](https://www.pexels.com/photo/orange-cat-sleeping-on-white-bed-1560424/), [Serena Koi](https://www.pexels.com/photo/close-up-photo-of-cat-yawning-1765832/) and [lil artsy](https://www.pexels.com/photo/cat-with-a-mouse-toy-3216568/)
 
-[Live preview](https://edijrdev.github.io/odin-landing-page/)
+[Live preview](https://edi-jr.github.io/odin-landing-page/)
