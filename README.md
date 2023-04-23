@@ -14,4 +14,4 @@ Logo by [Elias](https://pixabay.com/users/elionas-2345468/) from [Pixabay](https
 
 [View site](https://edi-jr.github.io/odin-landing-page/)
 
-![](https://github.com/edi-jr/odin-landing-page/blob/main/images/screenshot.png)
+![](https://github.com/edi-jr/odin-landing-page/blob/main/images/page-screenshot.png)
