@@ -2,167 +2,195 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-  list-style: none;
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+button {
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-}
-
-button, img, .container {
-  border-radius: 8px;
-}
-
-.header {
+.menu-bg, .intro-bg {
   background: #1f2937;
 }
 
-.header-menu {
-  padding: 16px 0;
-  margin: auto;
-  max-width: 80%;
+.menu {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  width: 48px;
-  flex: none;
+.menu-logo a img {
+  width: 50px;
 }
 
-.links {
+.menu-nav ul {
   display: flex;
-  gap: 16px;
+  list-style: none;
 }
 
-.header-content {
-  margin: auto;
-  padding: 128px 0;
-  max-width: 80%;
+.menu-nav li a {
+  text-decoration: none;
+  color: #e5e7eb;
+  padding: 10px 0 10px 20px;
+  font-size: 1.125em;
+}
+
+.menu-nav li a:hover {
+  color: #8a929e;
+}
+
+.intro {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 100px 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  gap: 16px;
 }
 
-.text {
-  flex: 1 1 340px;
+.intro-text {
+  flex: 1 1 400px;
+  margin: 10px 0;
 }
 
-.text h1 {
-  font-size: 48px;
-  font-weight: bolder;
+.intro-text h1 {
+  font-size: 3em;
   color: #f9faf8;
 }
 
-.text p {
-  margin-bottom: 8px;
+.intro-text p {
+  font-size: 1.125em;
+  color: #e5e7eb;
+  margin: .5em 0;
 }
 
-.header-content .text p, .link {
-  font-size: 18px;
+.intro-text button {
+  color: #f9faf8;
+  background: #3882f6;
+}
+
+.intro-text button:hover {
+  background: #2877f7;
+}
+
+.intro-img {
+  flex: 1 1 400px;
   color: #e5e7eb;
 }
 
-.img {
-  max-width: 600px;
-  min-width: 360px;
-  margin: auto;
+.photos {
+  max-width: 1044px;
+  margin: 50px auto 100px;
 }
 
-.header-content button {
-  background-color: #3882f6;
-  padding: 8px 32px;
-  color: #f9faf8;
-  font-size: 16px;
-}
-
-#photos {
-  padding: 38px 0 96px;
-  margin: auto;
-  max-width: 70%;
-}
-
-#photos h2 {
-  margin-bottom: 38px;
-  font-size: 36px;
-  font-weight: bolder;
+.photos h1 {
+  font-size: 2.25em;
   color: #1f2937;
   text-align: center;
+  margin: 0 10px 30px;
 }
 
 .cards {
   display: flex;
-  justify-content: center;
-  gap: 32px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
+  flex: 1 1 220px;
+  padding: 10px;
+  font-size: 1.125em;
+  text-align: center;
+}
+
+.card-text {
   color: #1f2937;
+  margin-top: 8px;
 }
 
-.card img {
-  max-width: 300px;
-  min-width: 250px;
-  margin-bottom: 4px;
+@media (max-width: 900px) {
+  .card {
+    flex: 1 1 50%;
+  }
 }
 
-#quote {
+@media (max-width: 560px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+.quote {
   background: #e5e7eb;
 }
 
-#quote blockquote {
-  max-width: 60%;
-  padding: 96px 0;
-  margin: auto;
+.quote-content {
+  display: block;
+  max-width: 844px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 10px;
 }
 
-#quote blockquote p {
-  font-size: 36px;
-  font-weight: lighter;
+.quote-text {
+  font-size: 2.25em;
   font-style: italic;
   color: #1f2937;
-  text-align: justify;
 }
 
-#quote blockquote figcaption {
-  font-size: 18px;
+.quote-author {
   text-align: end;
+  margin-top: 10px;
 }
 
-#sign-up {
-  max-width: 80%;
-  margin: auto;
-  padding: 96px 0;
+.cta {
+  margin: 0 10px;
 }
 
-#sign-up .container {
-  background-color: #3882f6;
-  color: #f9faf8;
+.cta-container {
+  max-width: 1044px;
+  margin: 100px auto;
+  padding: 50px 10px;
+  background: #3882f6;
+  border-radius: 10px;
   display: flex;
-  padding: 36px 8px;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  color: white;
 }
 
-.container button{
-  padding: 8px 32px;
-  font-size: 16px;
-  background-color: #3882f6;
-  color: #f9faf8;
-  border: 2px solid #f9faf8;
+.cta-text {
+  margin: 0 10px 10px 0;
 }
 
-footer {
-  background: #1f2937;
-  color: #f9faf8;
+.cta-button {
+  color: white;
+  background: #3882f6;
+  border: 2px solid white;
+}
+
+.cta-button:hover {
+  background: white;
+  color: #3882f6;
+}
+
+.footer {
   text-align: center;
-  padding: 24px 0;
+  background: #1f2937;
+  color: white;
+  padding: 40px 10px;
 }

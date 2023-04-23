@@ -6,76 +6,90 @@
   <meta charset="utf-8">
   <title>Cats</title>
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./images/logo.png">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-menu">
-      <img class="logo" src="./images/logo.png" alt="Cat logo">
-      <ul class="links">
-        <li><a class="link" href="#photos">Photos</a></li>
-        <li><a class="link" href="#quote">Quote</a></li>
-        <li><a class="link" href="#sign-up">Sign up</a></li>
-      </ul>
-    </div>
-
-    <div class="header-content">
-      <div class="text">
-        <h1>Cats are awesome!</h1>
-        <p>Sometimes lazy, sometimes playful. They are cute and can keep you good company. Get a cat friend, you won't regret it!</p>
-        <button>Sign up</button>
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="/"><img class="logo" src="./images/logo.png" alt="Cat logo"></a>
       </div>
-      
-      <img class="img" src="./images/cat1.jpg" alt="Cat picture">
-    </div>
+
+      <nav class="menu-nav">
+        <ul class="links">
+          <li><a class="link" href="#photos">Photos</a></li>
+          <li><a class="link" href="#quote">Quote</a></li>
+          <li><a class="link" href="#sign-up">Sign up</a></li>
+        </ul>
+      </nav>
+    </div> 
   </header>
 
-  <section id="photos">
-    <h2>Cat photos to make your day better</h2>
+  <section class="intro-bg">
+    <div class="intro">
+      <div class="intro-text">
+        <h1>Cats are awesome!</h1>
+        <p>Sometimes lazy, sometimes playful. They are cute and can keep you
+          good company. Get a cat friend, you won't regret it!</p>
+        <button>Sign up</button>
+      </div>
+
+      <div class="intro-img">
+        <img src="./images/cat1.jpg" alt="Cat picture">
+      </div>
+    </div>
+  </section>
+
+  <section class="photos" id="photos">
+    <h1>Cat photos to make your day better</h1>
 
     <div class="cards">
       <figure class="card">
         <img src="./images/cat2.jpg" alt="Cat with tongue out">
-        <figcaption>They blep</figcaption>
+        <figcaption class="card-text">They blep</figcaption>
       </figure>
-      
+
       <figure class="card">
         <img src="./images/cat3.jpg" alt="Cat sleeping">
-        <figcaption>They sleep (a lot!)</figcaption>
+        <figcaption class="card-text">They sleep (a lot!)</figcaption>
       </figure>
 
       <figure class="card">
         <img src="./images/cat4.jpg" alt="Cat yawning">
-        <figcaption>They yawn</figcaption>
+        <figcaption class="card-text">They yawn</figcaption>
       </figure>
 
       <figure class="card">
         <img src="./images/cat5.jpg" alt="Cat with rat toy in their mouth">
-        <figcaption>They hunt</figcaption>
+        <figcaption class="card-text">They hunt</figcaption>
       </figure>
     </div>
   </section>
 
-  <section id="quote">
-    <blockquote>
-      <p>I regard cats as one of the great joys in the world. I see them as a gift of highest order.</p>
-
-      <figcaption>-Trisha McCagh</figcaption>
+  <section class="quote" id="quote">
+    <blockquote class="quote-content">
+      <p class="quote-text">
+        I regard cats as one of the great joys in the world. I see them as a 
+        gift of highest order.
+      </p>
+      <figcaption class="quote-author">-Trisha McCagh</figcaption>
     </blockquote>
   </section>
 
-  <section id="sign-up">
-    <div class="container">
-      <div>
-        <h2>Call to action! it's time!</h2>
-        <p>Sign up for our cat newsletter to receive cat facts in your email!</p>
+  <section class="cta" id="cta">
+    <div class="cta-container">
+      <div class="cta-text">
+        <h1>Subscribe now!</h1>
+        <p>Sign up for our cat newsletter to receive cat facts in your email!
+        </p>
       </div>
 
-      <button>Sign up</button>
+      <button class="cta-button">Sign up</button>
     </div>
   </section>
 
-  <footer>
+  <footer class="footer">
     <p>Copyright © The Odin Project 2021</p>
   </footer>
 </body>
