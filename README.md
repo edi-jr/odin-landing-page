@@ -14,4 +14,4 @@ This project consists of a landing page built with CSS flexbox.
 
 [View site](https://edi-jr.github.io/odin-landing-page/)
 
-![](https://github.com/edi-jr/odin-landing-page/blob/main/images/page-screenshot.png)
+![](https://github.com/edi-jr/edi-jr/blob/main/assets/odinlandingpage-desktop-screenshot.jpg)
